@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor_main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dodo2.HelloController">
+    <children>
+      <ImageView fitHeight="777.0" fitWidth="448.0" layoutX="-44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@9237654.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="startB" layoutX="13.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#startButton" prefHeight="116.0" prefWidth="315.0" text="Start" textAlignment="CENTER" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font></Button>
+      <Button fx:id="reset_but" layoutX="63.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#reset_click" prefHeight="84.0" prefWidth="217.0" text="Reset" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="menu_but" layoutX="63.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#menu_click" prefHeight="84.0" prefWidth="217.0" text="Menu" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="football_but" layoutX="66.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#set_football" prefHeight="84.0" prefWidth="204.0" text="Football" textFill="#519060">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="winter_but" layoutX="66.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#set_winter" prefHeight="84.0" prefWidth="204.0" text="Winter" textFill="#519060">
+         <font>
+            <Font name="GOST type B" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="original_but" layoutX="67.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#set_original" prefHeight="84.0" prefWidth="204.0" text="Original" textFill="#519060">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="easy" layoutX="59.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#easy_mod" prefHeight="105.0" prefWidth="217.0" text="Easy" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="mid" layoutX="60.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#mid_mode" prefHeight="105.0" prefWidth="217.0" text="Medium" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="hard" layoutX="60.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#hard_mode" prefHeight="105.0" prefWidth="217.0" text="Hard" textFill="#519060" visible="false">
+         <font>
+            <Font name="GOST Type BU" size="42.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
